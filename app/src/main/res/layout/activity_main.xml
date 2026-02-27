@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000">
+    android:background="#7FFFD4">
 
     <ImageView
         android:id="@+id/spiderImage"
@@ -21,5 +21,23 @@
         android:layout_below="@id/spiderImage"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/leftBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Left" />
+
+    <Button
+        android:id="@+id/rightBtn"
+        android:text="Right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"/>
 
 </RelativeLayout>
